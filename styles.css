@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(90, 167, 90);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comic Sans MS', 'Marker Felt', 'Segoe Print', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.05em;
+    color: rgb(240, 179, 251);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+main {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#alarm-form {
+    display: inline-grid;
+    gap: 0.75rem;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.14);
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+}
+
+#alarm-form h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+#alarm-form label input,
+#alarm-form label input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#alarm-form button {
+    padding: 0.65rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background:   rgb(49, 163, 112);
+    color:rgb(240, 179, 251);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 2rem;
+    background-color: #da91eb;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: rgb(85, 255, 0);
+}

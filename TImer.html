@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timely</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Timely</h1>
+
+    <main>
+        <form id="alarm-form">
+            <nav>
+                <a href="index.html">Set an Alarm</a>
+                <a href="Timer.html">Set a Timer</a>
+            </nav>
+            <h2>Set a Timer</h2>
+
+            <div class="duration-inputs">
+                <label>
+                    Hours
+                    <input type="number" id="hours" name="hours" min="0" max="99" value="0" required>
+                </label>
+                <label>
+                    Minutes
+                    <input type="number" id="minutes" name="minutes" min="0" max="59" value="0" required>
+                </label>
+                <label>
+                    Seconds
+                    <input type="number" id="seconds" name="seconds" min="0" max="59" value="0" required>
+                </label>
+            </div>
+
+            <button type="submit" id="submit">Set Timer</button>
+        </form>
+        <p id="status" aria-live="polite" class="status"></p>
+    </main>
+    <audio id="alarm" src="alarm.mp3"></audio>
+</body>
+</html>
