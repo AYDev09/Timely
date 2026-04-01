@@ -8,10 +8,10 @@ let alarmSet = false;
 let mode = 'timer';
 
 function status(msg, err = false) {
-  const el = document.getElementById('status');
-  if (!el) return;
-  el.textContent = msg;
-  el.className = err ? 'status error' : 'status';
+  const ell = document.getElementById('status');
+  if (!ell) return;
+  ell.textContent = msg;
+  ell.className = err ? 'status error' : 'status';
 }
 
 function button() {
